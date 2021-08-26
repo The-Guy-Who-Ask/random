@@ -1,0 +1,60 @@
+.header, .header2, .header3, .header4, .header5, .header6{
+    border-radius: 97% 0% 71% 28% / 75% 0% 100% 20% ;
+    border: 1px black solid;
+    width: 10em;
+    height: 10em;
+    transform: rotate(-43deg);
+    position: absolute;
+    top: 2em;
+    left: 0em;
+    background: -webkit-linear-gradient(blue, rgb(51, 51, 163));
+    -webkit-background-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    position: relative;
+    background: -webkit-linear-gradient(rgb(43, 186, 186), blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+}
+.header2{
+    top: 2em;
+    left: 8em;
+}
+.header3{
+    top: 2em;
+    left: 16em;
+}
+.header4{
+    top: 2em;
+    left: 41em;
+}
+.header5{
+    top: 2em;
+    left: 51em;
+}
+.header6{
+    top: 2em;
+    left: 61em;
+}
+svg{
+    position: absolute;
+    /* bottom: 12em; */
+    top: 23em;
+    /* right: 0;
+    left: 0; */
+}
+h1{
+    position: absolute;
+    top: 5em;
+    font-size: 3em;
+    left: 8em;
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(#2e7ef5, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
